@@ -1,0 +1,17 @@
+# Selenium 相关
+selenium==4.16.0
+selenium-wire==5.1.0
+
+# API 客户端
+openai>=1.0.0
+
+# 环境变量管理
+python-dotenv==1.0.0
+
+# 依赖包
+blinker==1.7.0
+setuptools>=65.0.0
+
+# 其他可能需要的包
+requests>=2.31.0
+urllib3<2.0.0  # selenium-wire 兼容性要求

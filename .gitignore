@@ -1,0 +1,6 @@
+/.env
+/temp
+temp/
+.venv
+debug_sakura.py
+checkin.log
