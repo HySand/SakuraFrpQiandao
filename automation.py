@@ -149,7 +149,7 @@ class CheckInAutomation:
                 try:
                     check_in_button = wait.until(
                         EC.element_to_be_clickable(
-                            (By.XPATH, "//button[./span[contains(text(),'点击这里签到')]]")
+                            (By.XPATH, "//button[.//span[contains(., '点击这里签到')]]")
                         )
                     )
                     logger.info("找到签到按钮")
