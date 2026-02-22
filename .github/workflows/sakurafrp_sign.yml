@@ -1,9 +1,8 @@
 name: SakuraFrp 自动签到
 
 on:
-  # 定时任务：每天北京时间 9:00 执行（UTC 1:00）
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 16 * * *'
   
   # 允许手动触发
   workflow_dispatch:
