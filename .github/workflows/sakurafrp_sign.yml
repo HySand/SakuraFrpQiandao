@@ -63,3 +63,12 @@ jobs:
           name: checkin-logs
           path: checkin.log
           retention-days: 7
+
+  keepalive-workflow:
+    name: Keepalive Workflow
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: liskin/gh-workflow-keepalive@main
